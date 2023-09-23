@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: rgb(13,13,13,1);
+  color: rgb(255,0,126,1);
+  padding: 0 15vw
+}
+
+div.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+img#CoverArt{
+  border-radius: 30px;
+  width: 50vw
+}
+
+iframe#Trailer{
+  width: 70vw;
+  aspect-ratio: 16/9;
+  padding: 10px
+}
+
+a:link{
+  color: rgb(237,20,187,1)
+}
+a:hover{
+  color: rgb(237,140,20, 1)
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: black;
+}
